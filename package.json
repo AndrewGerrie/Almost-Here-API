@@ -1,0 +1,33 @@
+{
+  "name": "rest-api-express",
+  "version": "0.0.3",
+  "description": "",
+  "main": "express.js",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "node express.js",
+    "test": "mocha express.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azat-co/rest-api-express.git"
+  },
+  "author": "Azat Mardanov",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/azat-co/rest-api-express/issues"
+  },
+  "dependencies": {
+    "mongoskin": "~1.4.1",
+    "express": "~4.1.1",
+    "body-parser": "~1.0.2",
+    "newrelic": "*"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "mocha": "~1.18.2",
+    "superagent": "~0.17.0"
+  }
+}
